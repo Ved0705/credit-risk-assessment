@@ -1,0 +1,296 @@
+{
+ "good": {
+  "prediction": "LOW_RISK",
+  "risk_category": "LOW",
+  "probability_of_default": 0.1045,
+  "stability_score": 1.0,
+  "shap_contributions": [
+   {
+    "feature": "Checking account balance",
+    "value": "no checking account",
+    "shap": -0.128
+   },
+   {
+    "feature": "Loan purpose",
+    "value": "car (used)",
+    "shap": -0.0266
+   },
+   {
+    "feature": "Credit amount (DM)",
+    "value": 3500,
+    "shap": -0.0197
+   },
+   {
+    "feature": "Other installment plans",
+    "value": "none",
+    "shap": -0.0135
+   },
+   {
+    "feature": "Credit history",
+    "value": "existing credits paid back duly till now",
+    "shap": 0.0123
+   },
+   {
+    "feature": "Loan duration (months)",
+    "value": 24,
+    "shap": 0.0108
+   },
+   {
+    "feature": "Housing",
+    "value": "own",
+    "shap": -0.0094
+   },
+   {
+    "feature": "Age",
+    "value": 35,
+    "shap": -0.0089
+   },
+   {
+    "feature": "Savings balance",
+    "value": "100 - 500 DM",
+    "shap": -0.0072
+   },
+   {
+    "feature": "Telephone",
+    "value": "none",
+    "shap": 0.0063
+   },
+   {
+    "feature": "Employment duration",
+    "value": "1 - 4 years",
+    "shap": -0.0047
+   },
+   {
+    "feature": "Existing credits at bank",
+    "value": 1,
+    "shap": -0.0022
+   },
+   {
+    "feature": "Installment rate (% of income)",
+    "value": 3,
+    "shap": -0.0019
+   },
+   {
+    "feature": "Job type",
+    "value": "skilled employee / official",
+    "shap": -0.0017
+   },
+   {
+    "feature": "Other debtors / guarantors",
+    "value": "none",
+    "shap": -0.0015
+   },
+   {
+    "feature": "Most valuable property",
+    "value": "car or other property",
+    "shap": 0.0014
+   },
+   {
+    "feature": "Number of dependents",
+    "value": 1,
+    "shap": -0.0011
+   },
+   {
+    "feature": "Years at residence",
+    "value": 2,
+    "shap": 0.0007
+   }
+  ]
+ },
+ "borderline": {
+  "prediction": "HIGH_RISK",
+  "risk_category": "MEDIUM",
+  "probability_of_default": 0.4119,
+  "stability_score": 1.0,
+  "shap_contributions": [
+   {
+    "feature": "Checking account balance",
+    "value": "0 - 200 DM",
+    "shap": 0.0501
+   },
+   {
+    "feature": "Savings balance",
+    "value": "< 100 DM",
+    "shap": 0.0376
+   },
+   {
+    "feature": "Loan duration (months)",
+    "value": 24,
+    "shap": 0.0226
+   },
+   {
+    "feature": "Credit amount (DM)",
+    "value": 2500,
+    "shap": -0.021
+   },
+   {
+    "feature": "Credit history",
+    "value": "existing credits paid back duly till now",
+    "shap": 0.0109
+   },
+   {
+    "feature": "Installment rate (% of income)",
+    "value": 4,
+    "shap": 0.01
+   },
+   {
+    "feature": "Housing",
+    "value": "own",
+    "shap": -0.0095
+   },
+   {
+    "feature": "Other installment plans",
+    "value": "none",
+    "shap": -0.0093
+   },
+   {
+    "feature": "Loan purpose",
+    "value": "furniture/equipment",
+    "shap": 0.009
+   },
+   {
+    "feature": "Telephone",
+    "value": "none",
+    "shap": 0.0072
+   },
+   {
+    "feature": "Most valuable property",
+    "value": "car or other property",
+    "shap": 0.0045
+   },
+   {
+    "feature": "Years at residence",
+    "value": 2,
+    "shap": 0.0027
+   },
+   {
+    "feature": "Existing credits at bank",
+    "value": 1,
+    "shap": 0.0022
+   },
+   {
+    "feature": "Employment duration",
+    "value": "1 - 4 years",
+    "shap": -0.002
+   },
+   {
+    "feature": "Job type",
+    "value": "skilled employee / official",
+    "shap": -0.0017
+   },
+   {
+    "feature": "Age",
+    "value": 30,
+    "shap": -0.0009
+   },
+   {
+    "feature": "Other debtors / guarantors",
+    "value": "none",
+    "shap": 0.0004
+   },
+   {
+    "feature": "Number of dependents",
+    "value": 1,
+    "shap": -0.0003
+   }
+  ]
+ },
+ "risky": {
+  "prediction": "HIGH_RISK",
+  "risk_category": "HIGH",
+  "probability_of_default": 0.7479,
+  "stability_score": 1.0,
+  "shap_contributions": [
+   {
+    "feature": "Checking account balance",
+    "value": "< 0 DM",
+    "shap": 0.078
+   },
+   {
+    "feature": "Loan duration (months)",
+    "value": 60,
+    "shap": 0.0651
+   },
+   {
+    "feature": "Credit amount (DM)",
+    "value": 15000,
+    "shap": 0.0605
+   },
+   {
+    "feature": "Credit history",
+    "value": "no credits / all paid back duly",
+    "shap": 0.0427
+   },
+   {
+    "feature": "Most valuable property",
+    "value": "unknown / no property",
+    "shap": 0.0393
+   },
+   {
+    "feature": "Savings balance",
+    "value": "< 100 DM",
+    "shap": 0.0359
+   },
+   {
+    "feature": "Housing",
+    "value": "rent",
+    "shap": 0.0306
+   },
+   {
+    "feature": "Other installment plans",
+    "value": "bank",
+    "shap": 0.0284
+   },
+   {
+    "feature": "Employment duration",
+    "value": "< 1 year",
+    "shap": 0.0219
+   },
+   {
+    "feature": "Loan purpose",
+    "value": "education",
+    "shap": 0.0208
+   },
+   {
+    "feature": "Age",
+    "value": 22,
+    "shap": 0.0162
+   },
+   {
+    "feature": "Installment rate (% of income)",
+    "value": 4,
+    "shap": 0.0158
+   },
+   {
+    "feature": "Years at residence",
+    "value": 1,
+    "shap": -0.0105
+   },
+   {
+    "feature": "Telephone",
+    "value": "none",
+    "shap": 0.0043
+   },
+   {
+    "feature": "Job type",
+    "value": "unskilled resident",
+    "shap": -0.0031
+   },
+   {
+    "feature": "Existing credits at bank",
+    "value": 1,
+    "shap": 0.0015
+   },
+   {
+    "feature": "Other debtors / guarantors",
+    "value": "none",
+    "shap": 0.0007
+   },
+   {
+    "feature": "Number of dependents",
+    "value": 1,
+    "shap": 0.0004
+   }
+  ]
+ }
+}

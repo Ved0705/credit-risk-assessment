@@ -1,0 +1,12 @@
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+backend/.env
+frontend
+**/.venv
+**/venv
+.git
+.idea
+paper
+notebooks
+Claude outputs

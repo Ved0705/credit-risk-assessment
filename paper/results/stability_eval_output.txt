@@ -1,0 +1,8 @@
+applicants: 200, threshold: 0.27
+mean stability: 0.995
+S = 1: 193/200 (96.5%)
+S >= 0.9: 198/200 (99.0%)
+lowest S: 0.55
+one-feature change flips decision: 9/200 (4.5%)
+mean S near threshold (n=38): 0.974; others (n=162): 1.000
+features involved in flips: {'num_dependents': 3, 'duration': 6, 'credit_amount': 2, 'installment_rate': 2, 'residence_since': 1, 'existing_credits': 1}

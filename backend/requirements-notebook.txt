@@ -1,0 +1,4 @@
+# Optional: only for notebooks/model_analysis.ipynb
+-r requirements.txt
+matplotlib>=3.7
+jupyter>=1.0

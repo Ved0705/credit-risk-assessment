@@ -1,0 +1,132 @@
+{
+  "numeric": {
+    "duration": {
+      "min": 4,
+      "max": 72,
+      "description": "Loan duration in months"
+    },
+    "credit_amount": {
+      "min": 250,
+      "max": 20000,
+      "description": "Requested credit amount (Deutsche Mark)"
+    },
+    "installment_rate": {
+      "min": 1,
+      "max": 4,
+      "description": "Installment rate as % of disposable income (1 = lowest, 4 = highest)"
+    },
+    "residence_since": {
+      "min": 1,
+      "max": 4,
+      "description": "Years at present residence (1 = <1 yr ... 4 = >=4 yrs)"
+    },
+    "age": {
+      "min": 18,
+      "max": 75,
+      "description": "Applicant age in years"
+    },
+    "existing_credits": {
+      "min": 1,
+      "max": 4,
+      "description": "Number of existing credits at this bank"
+    },
+    "num_dependents": {
+      "min": 1,
+      "max": 2,
+      "description": "Number of people the applicant must financially support"
+    }
+  },
+  "categorical": {
+    "checking_status": [
+      "< 0 DM",
+      "0 - 200 DM",
+      ">= 200 DM / salary assigned",
+      "no checking account"
+    ],
+    "credit_history": [
+      "no credits / all paid back duly",
+      "all credits at this bank paid back duly",
+      "existing credits paid back duly till now",
+      "delay in paying off in the past",
+      "critical account / other credits elsewhere"
+    ],
+    "purpose": [
+      "car (new)",
+      "car (used)",
+      "furniture/equipment",
+      "radio/television",
+      "domestic appliances",
+      "repairs",
+      "education",
+      "vacation",
+      "retraining",
+      "business",
+      "others"
+    ],
+    "savings_status": [
+      "< 100 DM",
+      "100 - 500 DM",
+      "500 - 1000 DM",
+      ">= 1000 DM",
+      "unknown / no savings account"
+    ],
+    "employment": [
+      "unemployed",
+      "< 1 year",
+      "1 - 4 years",
+      "4 - 7 years",
+      ">= 7 years"
+    ],
+    "other_debtors": [
+      "none",
+      "co-applicant",
+      "guarantor"
+    ],
+    "property": [
+      "real estate",
+      "building society savings / life insurance",
+      "car or other property",
+      "unknown / no property"
+    ],
+    "other_installment_plans": [
+      "bank",
+      "stores",
+      "none"
+    ],
+    "housing": [
+      "rent",
+      "own",
+      "for free"
+    ],
+    "job": [
+      "unemployed / unskilled non-resident",
+      "unskilled resident",
+      "skilled employee / official",
+      "management / self-employed / highly qualified"
+    ],
+    "telephone": [
+      "none",
+      "yes, registered"
+    ]
+  },
+  "labels": {
+    "checking_status": "Checking account balance",
+    "duration": "Loan duration (months)",
+    "credit_history": "Credit history",
+    "purpose": "Loan purpose",
+    "credit_amount": "Credit amount (DM)",
+    "savings_status": "Savings balance",
+    "employment": "Employment duration",
+    "installment_rate": "Installment rate (% of income)",
+    "other_debtors": "Other debtors / guarantors",
+    "residence_since": "Years at residence",
+    "property": "Most valuable property",
+    "age": "Age",
+    "other_installment_plans": "Other installment plans",
+    "housing": "Housing",
+    "existing_credits": "Existing credits at bank",
+    "job": "Job type",
+    "num_dependents": "Number of dependents",
+    "telephone": "Telephone"
+  }
+}
